@@ -2,7 +2,7 @@
 
 ## 🚀 Live Demo
 
-**Try PaperMind online:** [Launch PaperMind](https://research-rag-z0c8.onrender.com)
+**Try Research RAG online:** [Launch Research RAG](https://research-rag-z0c8.onrender.com)
 
 Explore AI-powered research paper summarization, citation-grounded question answering, and multi-paper comparison.
 
@@ -10,15 +10,15 @@ Explore AI-powered research paper summarization, citation-grounded question answ
 
 **Turn research papers into actionable insights with Retrieval-Augmented Generation (RAG).**
 
-PaperMind is an AI-powered research assistant that enables users to upload research papers in PDF format or retrieve them from arXiv, ask context-aware questions, generate summaries, compare multiple papers, and save research notes. It combines section-aware document processing, semantic search, vector retrieval, and large language models to deliver answers grounded in the source documents with numbered citations.
+Research RAG is an AI-powered research assistant that enables users to upload research papers in PDF format or retrieve them from arXiv, ask context-aware questions, generate summaries, compare multiple papers, and save research notes. It combines section-aware document processing, semantic search, vector retrieval, and large language models to deliver answers grounded in the source documents with numbered citations.
 
 ## Overview
 
 Research papers often contain dense technical content, making it time-consuming to locate specific findings, understand methodologies, and compare results across publications.
 
-PaperMind simplifies this process by creating a searchable research library and using Retrieval-Augmented Generation (RAG) to retrieve relevant passages before generating answers.
+Research RAG simplifies this process by creating a searchable research library and using Retrieval-Augmented Generation (RAG) to retrieve relevant passages before generating answers.
 
-Instead of relying solely on an LLM's pretrained knowledge, PaperMind uses retrieved paper content to ground its responses and help users verify the supporting evidence.
+Instead of relying solely on an LLM's pretrained knowledge, Research RAG uses retrieved paper content to ground its responses and help users verify the supporting evidence.
 
 ## Key Features
 
@@ -85,7 +85,7 @@ flowchart TD
 ## Project Structure
 
 ```text
-PaperMind/
+Research-RAG/
 ├── papermind/
 │   ├── parser.py       # PDF extraction, heading detection, chunking
 │   ├── store.py        # ChromaDB indexing and retrieval
@@ -97,7 +97,7 @@ PaperMind/
 ├── app.py              # Streamlit application
 ├── api.py              # FastAPI backend
 ├── requirements.txt    # Python dependencies
-├── .env.example        # Environment variable template
+├── .env                # Environment variable template
 ├── .gitignore
 └── README.md
 ```
@@ -113,8 +113,8 @@ PaperMind/
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd PaperMind
+git clone <https://github.com/pnikhilkumarnaik/Research-RAG>
+cd Research-RAG
 ```
 
 Replace the repository URL with your GitHub repository URL.
@@ -285,9 +285,6 @@ Recommended evaluation areas:
 
 A practical evaluation dataset should contain representative questions and verified supporting passages from multiple papers. Report measured results only after running the evaluation.
 
-## License
-
-Choose and add an appropriate open-source license, such as the MIT License, if you intend to distribute this project under those terms.
 
 ---
 
