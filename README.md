@@ -1,5 +1,12 @@
 # Research RAG — AI-Powered Research Paper Assistant
 
+## 🚀 Live Demo
+
+**Try PaperMind online:** [Launch PaperMind](https://research-rag-z0c8.onrender.com)
+
+Explore AI-powered research paper summarization, citation-grounded question answering, and multi-paper comparison.
+
+
 **Turn research papers into actionable insights with Retrieval-Augmented Generation (RAG).**
 
 PaperMind is an AI-powered research assistant that enables users to upload research papers in PDF format or retrieve them from arXiv, ask context-aware questions, generate summaries, compare multiple papers, and save research notes. It combines section-aware document processing, semantic search, vector retrieval, and large language models to deliver answers grounded in the source documents with numbered citations.
