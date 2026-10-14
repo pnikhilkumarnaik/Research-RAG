@@ -1,4 +1,4 @@
-# Research RAG — AI-Powered Research Paper Assistant
+
 
 ## 🚀 Live Demo
 
@@ -6,6 +6,7 @@
 
 Explore AI-powered research paper summarization, citation-grounded question answering, and multi-paper comparison.
 
+# Research RAG — AI-Powered Research Paper Assistant
 
 **Turn research papers into actionable insights with Retrieval-Augmented Generation (RAG).**
 
